@@ -42,4 +42,8 @@ public class ScoreDTO {
 	public Double getScore() {
 		return score;
 	}
+
+	public void setMovieId (Long movieId){
+		this.movieId = movieId;
+	}
 }
